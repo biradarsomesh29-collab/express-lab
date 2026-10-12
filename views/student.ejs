@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student - Express.js Lab</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <div class="container route-page">
+
+        <div class="route-icon">🎓</div>
+
+        <h1>Student Details</h1>
+
+        <p class="subtitle">
+            Student Route Parameter Demonstration
+        </p>
+
+        <div class="section">
+
+            <h2>👨‍🎓 Student Information</h2>
+
+            <p>
+                The requested Student ID is:
+            </p>
+
+            <h2><%= id %></h2>
+
+        </div>
+
+        <div class="section">
+
+            <h2>🔗 Route Used</h2>
+
+            <p>
+                /student/<%= id %>
+            </p>
+
+        </div>
+
+        <a href="/" class="back-btn">
+            ← Back to File Upload
+        </a>
+
+        <div class="footer">
+            Express.js • Routing & Route Parameters
+        </div>
+
+    </div>
+
+</body>
+</html>

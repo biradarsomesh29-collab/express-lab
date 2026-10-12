@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #eef2ff, #f8fafc);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Container */
+.container {
+    width: 90%;
+    max-width: 700px;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #2563eb;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #64748b;
+    margin-bottom: 35px;
+}
+
+/* Sections */
+.section {
+    background: #f8fafc;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+}
+
+.section h2 {
+    color: #1e293b;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+/* File Input */
+input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px dashed #cbd5e1;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+/* Navigation */
+.links {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.links a {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background: #e0e7ff;
+    color: #1e40af;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.links a:hover {
+    background: #c7d2fe;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 25px;
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+/* Route Page */
+.route-page {
+    text-align: center;
+}
+
+.route-icon {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.route-page h2 {
+    color: #2563eb;
+    margin-bottom: 12px;
+}
+
+.route-page p {
+    color: #64748b;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.back-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}

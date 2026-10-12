@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Express.js Lab</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Express.js Application</h1>
+
+        <p class="subtitle">
+            Advanced Web Technology Lab
+        </p>
+
+        <!-- EJS Section -->
+        <div class="section">
+            <h2>Welcome, <%= name %> 👋</h2>
+
+            <p>
+                This page is dynamically generated using
+                the EJS template engine.
+            </p>
+        </div>
+
+        <!-- File Upload -->
+        <div class="section">
+
+            <h2>📁 File Upload</h2>
+
+            <form action="/upload"
+                  method="POST"
+                  enctype="multipart/form-data">
+
+                <input type="file" name="photo" required>
+
+                <button type="submit">
+                    Upload File
+                </button>
+
+            </form>
+
+        </div>
+
+        <!-- Navigation -->
+        <div class="section">
+
+            <h2>🔗 Routes</h2>
+
+            <div class="links">
+
+                <a href="/about">
+                    About
+                </a>
+
+                <a href="/student/101">
+                    Student
+                </a>
+
+                <a href="/error">
+                    Test Error
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="footer">
+            Express.js • EJS • Multer • Middleware
+        </div>
+
+    </div>
+
+</body>
+</html>
